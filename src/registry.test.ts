@@ -324,6 +324,7 @@ describe('loadPetRegistry', () => {
       'blue-throated-bee-eater',
       'doro',
       'jyn',
+      'mei-chi-bao',
       'miku',
       'ouo-neko',
       'starry-doll',
@@ -341,6 +342,13 @@ describe('loadPetRegistry', () => {
       displayName: '女仆鲸鱼娘',
       renderer: 'frames2d',
     })
+    expect(registry.byId('mei-chi-bao')).toMatchObject({
+      displayName: '没吃饱',
+      atlasRows: 11,
+      columns: 8,
+      rows: [6, 8, 8, 4, 5, 8, 6, 6, 6],
+    })
+    expect(existsSync(petAtlasFile(registry.byId('mei-chi-bao')!))).toBe(true)
     expect(registry.byId('ouo-neko')).toMatchObject({
       displayName: 'OUO Neko',
       atlasRows: 11,

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-pet/pet-manifest-v2.schema.json",
+  "petManifestVersion": 2,
+  "id": "mei-chi-bao",
+  "displayName": "没吃饱",
+  "author": "上善无形（溟月原作）× ZipZipPipe（DeepSeek 二次设计）；DSH 移植：zhangyue311",
+  "version": "1.0.0",
+  "description": "以 B 站 UP 主上善无形创作的「溟月」为角色原型，经 ZipZipPipe 加入 DeepSeek 元素二次设计，并由 zhangyue311 生成/整理为 DSH 宠物精灵。蓝色鱼系女仆少女，圆润可爱、安静呆萌。",
+  "license": "CC-BY-NC-SA-4.0",
+  "renderer": "sprite2d",
+  "sprite2d": {
+    "spritesheetPath": "spritesheet.webp",
+    "cell": {
+      "width": 192,
+      "height": 208
+    },
+    "columns": 8,
+    "atlasRows": 11,
+    "frames": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6
+    ]
+  }
+}
